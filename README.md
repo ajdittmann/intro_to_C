@@ -36,6 +36,6 @@ Another way to go accelerate python is [numba](https://numba.readthedocs.io/en/s
 2. io-basic - an introduction to printing and taking values as inputs from the command line.
 3. basic_types - an overview of data types in C.
 4. arithmetic - doing math in C, and the math library.
-5. functions_basics - an introduction to functions.
-6. functions_loops - for and while loops, along with if/else statements. And functions.
-7. functions_arrays - using arrays and functions together.
+5. loops - for and while loops, along with if/else statements.
+6. functions_basics - an introduction to functions.
+7. arrays - using arrays and functions together.
