@@ -16,11 +16,11 @@ Associated files:
 
 Compile with:
 ```
-	gcc io_basic.c -o io_basic
+gcc io_basic.c -o io_basic
 ```
 Run with:
 ```
-	./io_basic x y
+./io_basic x y
 ```
    Where 'x' and 'y' are integer values
 

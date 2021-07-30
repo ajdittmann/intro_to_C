@@ -1,5 +1,5 @@
-functions-arrays*.c are codes written in C that show simple 
-	1- and 2D arrays, and how to operate on them using functions
+functions-arrays*.c are codes written in C that show how to create simple 
+	1D and 2D arrays, and how to operate on them using functions
 
 Associated files:
     functions-arrays.c

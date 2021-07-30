@@ -14,12 +14,12 @@ Associated files:
 
 Compile with:
 ```
-	gcc intro.c -o intro
+gcc intro.c -o intro
 ```
 
 Run with:
 ```
-	./intro
+./intro
 ```
 
 Exercises A - Try changing the text in the print statement!
