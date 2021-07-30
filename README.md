@@ -17,10 +17,10 @@ If you're on a mac, you can probably use clang, or just install GCC. GCC can als
 to setup Windows Subsystem for Linux and get the ubuntu terminal environment from the Microsoft Store.
 
 As far as going fast, some python vs. C benchmarks can be found [here](https://benchmarksgame-team.pages.debian.net/benchmarksgame/fastest/python3-gcc.html).
-Those benchmarks are't quite fair, because there are tools like numpy which make math faster in python (under the hood, most 
+Those benchmarks aren't quite fair, because there are tools like numpy which make math faster in python (under the hood, most 
 numpy/scipy functions are written in C or FORTRAN). 
 
-Some benchmarks comaring Python, numpy, and various flavors of [Cython](https://cython.org/) are listed [here](https://notes-on-cython.readthedocs.io/en/latest/std_dev.html)
+Some benchmarks comparing Python, numpy, and various flavors of [Cython](https://cython.org/) are listed [here](https://notes-on-cython.readthedocs.io/en/latest/std_dev.html)
 Method | Time (ms) | Speedup vs Python
 ------------|-------------|--------------
 Pure Python | 183 | x1
