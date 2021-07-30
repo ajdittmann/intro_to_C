@@ -1,23 +1,23 @@
 ## Overview
-functions-arrays*.c are codes written in C that show how to create simple 
+arrays*.c are codes written in C that show how to create simple 
 1D and 2D arrays, and how to operate on them using functions
 
 Associated files:
-* functions-arrays.c
-* functions-arrays_uncommented.c
-* README-functions-arrays
+* arrays.c
+* arrays_uncommented.c
+* README-arrays
 
 Compile with:
 ```
-gcc functions-arrays.c -o functions -lm
+gcc arrays.c -o arrays -lm
 ```
 
 Run with:
 ```
-./functions
+./arrays
 ```
 
-Exercises A - See how ./functions behaves when you:
+Exercises A - See how ./arrays behaves when you:
 1. Change Nx or Ny
 2. Try to print out the values after malloc but before initializing the 1D array
 3. change the math operations in set_values
