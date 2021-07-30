@@ -23,8 +23,6 @@ int main(void) {
     changeM(9);	//This will change the value of the global variable M without returning anything.
     printf("M = %d\n", M);	//see if the change worked
 
-    printf("test: %d\n", (int) "c");
-
 	return 0;	// Gotta love that 'return 0;'
 	}
 
