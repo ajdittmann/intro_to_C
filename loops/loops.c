@@ -2,11 +2,11 @@
 #include <stdlib.h>	//Standard libraries
 #include <math.h>	//For square roots, exponents, logs, etc.
 
-#define N 10		//define a constant - this will be set in stone during compilation
-
 int main(void) {
 
-    double x = 1.0;
+	int N = 10;			//a variable that will be used to determine the number of iterations in our for loop
+
+    double x = 1.0;		//some sample variables to manipulate
     double y = 1.5;
     int M = 200;
 
@@ -32,10 +32,16 @@ int main(void) {
     int counter = 0;	//an integer to keep track of how many times we have gone through the while loop
     printf("M = %d\n", M);	//see the current value of M
     while (M > 0) {
-		if (counter % 3 == 0) M *= 2;
-		else if (counter % 3 == 1) M /= counter;
-		else M += 5;
-		counter += 1;			//don't forget to incriment counter
+		if (counter % 3 == 0) {
+			M *= 2;
+			}
+		else if (counter % 3 == 1) {
+			M /= counter;
+			}
+		else {
+			M += 5;
+			}
+		counter += 1;			//don't forget to incriment the counter
 	    printf("M = %d\n", M);	//see the current value of M
 	    }
 

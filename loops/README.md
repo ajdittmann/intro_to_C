@@ -21,7 +21,7 @@ Run with:
 ```
 
 Exercises A - See how ./loops behaves when you:
-1. the value in #define N
-2. add a line changing the value of N in main()
-3. rewrite the 'for' loop as a 'while' loop
-4. change how M is modified in each logical statement
+1. change the value of N
+2. rewrite the 'for' loop as a 'while' loop
+3. change how M is modified in each logical statement
+

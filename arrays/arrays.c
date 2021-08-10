@@ -2,8 +2,8 @@
 #include <stdlib.h>	//Standard libraries
 #include <math.h>	//For square roots, exponents, logs, etc.
 
-#define Nx 20	//this will be the size of one of our array dimensions
-#define Ny 30	//this will be the size of the other array dimension, where applicable
+int Nx = 20;	//this will be the size of one of our array dimensions
+int Ny = 30;	//this will be the size of the other array dimension, where applicable
 
 void set_values(double *output, double **inputs);	//a function that take arrays as inputs/outputs
 

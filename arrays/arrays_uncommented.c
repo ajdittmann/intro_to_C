@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <math.h>
 
-#define Nx 20
-#define Ny 30
+int Nx = 20;
+int Ny = 30;
 
 void set_values(double *output, double **inputs);
 

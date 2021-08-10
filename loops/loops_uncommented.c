@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <math.h>
 
-#define N 10
-
 int main(void) {
+
+	int N = 10;
 
     double x = 1.0;
     double y = 1.5;
@@ -29,13 +29,18 @@ int main(void) {
     int counter = 0;
     printf("M = %d\n", M);
     while (M > 0) {
-		if (counter % 3 == 0) M *= 2;
-		else if (counter % 3 == 1) M /= counter;
-		else M += 5;
+		if (counter % 3 == 0) {
+			M *= 2;
+			}
+		else if (counter % 3 == 1) {
+			M /= counter;
+			}
+		else {
+			M += 5;
+			}
 		counter += 1;
 	    printf("M = %d\n", M);
 	    }
-
 
 	return 0;
 	}
