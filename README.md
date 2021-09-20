@@ -21,6 +21,7 @@ Those benchmarks aren't quite fair, because there are tools like numpy which mak
 numpy/scipy functions are written in C or FORTRAN). 
 
 Some benchmarks comparing Python, numpy, and various flavors of [Cython](https://cython.org/) are listed [here](https://notes-on-cython.readthedocs.io/en/latest/std_dev.html)
+
 Method | Time (ms) | Speedup vs Python
 ------------|-------------|--------------
 Pure Python | 183 | x1
